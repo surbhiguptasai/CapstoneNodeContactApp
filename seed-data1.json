@@ -1,0 +1,962 @@
+[
+  {
+    "name": {
+      "firstName": "Eileen",
+      "lastName": "Wilcox"
+    },
+    "gender": "female",
+    "username": "wallace",
+    "accountCode": "CHAS3295965468688632",
+    "branchName": "Seymour",
+    "totalAmount": "1,022.16",
+    "email": "wallacewilcox@cuizine.com",
+    "address": {
+      "street": "Grace Court",
+      "aptNo": 171,
+      "city": "New York City,NY",
+      "state": " Oregon",
+      "country": " Cape Verde,",
+      "zipcode": 31752
+    },
+    "phone": "+1 (869) 561-3844",
+    "ssn": "843-58-7540",
+    "actopendate": "06-03-2014",
+    "acttype": "Checking"
+  },
+  {
+    "name": {
+      "firstName": "Verna",
+      "lastName": "Church"
+    },
+    "gender": "female",
+    "username": "dora",
+    "accountCode": "CHAS3370750376996606",
+    "branchName": "Outlook",
+    "totalAmount": "1,993.09",
+    "email": "dorachurch@cuizine.com",
+    "address": {
+      "street": "Gotham Avenue",
+      "aptNo": 108,
+      "city": "Dallas,TX",
+      "state": " New Jersey",
+      "country": " Colombia,",
+      "zipcode": 88571
+    },
+    "phone": "+1 (991) 436-2137",
+    "ssn": "422-42-3206",
+    "actopendate": "22-04-2015",
+    "acttype": "Saving"
+  },
+  {
+    "name": {
+      "firstName": "Jane",
+      "lastName": "Myers"
+    },
+    "gender": "female",
+    "username": "alston",
+    "accountCode": "CHAS2583108542727187",
+    "branchName": "Neibert",
+    "totalAmount": "2,897.45",
+    "email": "alstonmyers@cuizine.com",
+    "address": {
+      "street": "Campus Place",
+      "aptNo": 401,
+      "city": "Chicago,IL",
+      "state": " Utah",
+      "country": " New Zealand,",
+      "zipcode": 57341
+    },
+    "phone": "+1 (922) 524-3364",
+    "ssn": "653-91-4611",
+    "actopendate": "11-08-2015",
+    "acttype": "Saving"
+  },
+  {
+    "name": {
+      "firstName": "Angel",
+      "lastName": "Compton"
+    },
+    "gender": "female",
+    "username": "leanne",
+    "accountCode": "CHAS3689534042457722",
+    "branchName": "Orick",
+    "totalAmount": "2,357.35",
+    "email": "leannecompton@cuizine.com",
+    "address": {
+      "street": "Irwin Street",
+      "aptNo": 170,
+      "city": "Chicago,IL",
+      "state": " Delaware",
+      "country": " Cyprus,",
+      "zipcode": 12667
+    },
+    "phone": "+1 (810) 534-2838",
+    "ssn": "355-73-3088",
+    "actopendate": "26-01-2017",
+    "acttype": "Checking"
+  },
+  {
+    "name": {
+      "firstName": "James",
+      "lastName": "Kidd"
+    },
+    "gender": "female",
+    "username": "osborn",
+    "accountCode": "CHAS2431790715510629",
+    "branchName": "Efland",
+    "totalAmount": "2,590.60",
+    "email": "osbornkidd@cuizine.com",
+    "address": {
+      "street": "Vandervoort Avenue",
+      "aptNo": 563,
+      "city": "Dallas,TX",
+      "state": " Massachusetts",
+      "country": " Vatican City State (Holy See),",
+      "zipcode": 30448
+    },
+    "phone": "+1 (912) 417-3726",
+    "ssn": "977-94-2892",
+    "actopendate": "10-02-2017",
+    "acttype": "Checking"
+  },
+  {
+    "name": {
+      "firstName": "Torres",
+      "lastName": "Welch"
+    },
+    "gender": "male",
+    "username": "judith",
+    "accountCode": "CHAS2576042307351386",
+    "branchName": "Morgandale",
+    "totalAmount": "2,734.61",
+    "email": "judithwelch@cuizine.com",
+    "address": {
+      "street": "Clay Street",
+      "aptNo": 862,
+      "city": "Philadelphia,PA",
+      "state": " Virgin Islands",
+      "country": " Nigeria,",
+      "zipcode": 87341
+    },
+    "phone": "+1 (844) 593-3398",
+    "ssn": "353-29-3188",
+    "actopendate": "16-07-2014",
+    "acttype": "Saving"
+  },
+  {
+    "name": {
+      "firstName": "Mae",
+      "lastName": "Todd"
+    },
+    "gender": "female",
+    "username": "fleming",
+    "accountCode": "CHAS2959454590958923",
+    "branchName": "Sims",
+    "totalAmount": "2,774.68",
+    "email": "flemingtodd@cuizine.com",
+    "address": {
+      "street": "Ryder Street",
+      "aptNo": 432,
+      "city": "Chicago,IL",
+      "state": " District Of Columbia",
+      "country": " Somalia,",
+      "zipcode": 38796
+    },
+    "phone": "+1 (938) 446-2386",
+    "ssn": "548-72-1768",
+    "actopendate": "17-04-2015",
+    "acttype": "Saving"
+  },
+  {
+    "name": {
+      "firstName": "West",
+      "lastName": "Ewing"
+    },
+    "gender": "male",
+    "username": "preston",
+    "accountCode": "CHAS2510799013326979",
+    "branchName": "Bluetown",
+    "totalAmount": "1,239.11",
+    "email": "prestonewing@cuizine.com",
+    "address": {
+      "street": "Elm Avenue",
+      "aptNo": 982,
+      "city": "Los Angeles,CA",
+      "state": " Illinois",
+      "country": " Cambodia,",
+      "zipcode": 48473
+    },
+    "phone": "+1 (883) 572-3802",
+    "ssn": "730-95-1146",
+    "actopendate": "16-04-2017",
+    "acttype": "Saving"
+  },
+  {
+    "name": {
+      "firstName": "Bridgett",
+      "lastName": "Rasmussen"
+    },
+    "gender": "female",
+    "username": "trevino",
+    "accountCode": "CHAS3188013496846970",
+    "branchName": "Cucumber",
+    "totalAmount": "1,185.34",
+    "email": "trevinorasmussen@cuizine.com",
+    "address": {
+      "street": "Verona Place",
+      "aptNo": 775,
+      "city": "San Antonio,TX",
+      "state": " Kansas",
+      "country": " Madagascar,",
+      "zipcode": 87981
+    },
+    "phone": "+1 (908) 538-2663",
+    "ssn": "115-59-6833",
+    "actopendate": "13-04-2016",
+    "acttype": "Checking"
+  },
+  {
+    "name": {
+      "firstName": "Dotson",
+      "lastName": "Ward"
+    },
+    "gender": "male",
+    "username": "deirdre",
+    "accountCode": "CHAS2976309790465560",
+    "branchName": "Dellview",
+    "totalAmount": "3,712.69",
+    "email": "deirdreward@cuizine.com",
+    "address": {
+      "street": "Rogers Avenue",
+      "aptNo": 843,
+      "city": "San Antonio,TX",
+      "state": " Ohio",
+      "country": " Turkey,",
+      "zipcode": 11626
+    },
+    "phone": "+1 (921) 450-3149",
+    "ssn": "523-54-7317",
+    "actopendate": "20-03-2016",
+    "acttype": "Saving"
+  },
+  {
+    "name": {
+      "firstName": "Bailey",
+      "lastName": "Baird"
+    },
+    "gender": "male",
+    "username": "jennie",
+    "accountCode": "CHAS3890105827813774",
+    "branchName": "Tecolotito",
+    "totalAmount": "3,277.98",
+    "email": "jenniebaird@cuizine.com",
+    "address": {
+      "street": "Williamsburg Street",
+      "aptNo": 169,
+      "city": "San Jose,CA",
+      "state": " Alabama",
+      "country": " Botswana,",
+      "zipcode": 32410
+    },
+    "phone": "+1 (843) 466-3127",
+    "ssn": "317-91-3670",
+    "actopendate": "12-03-2017",
+    "acttype": "Checking"
+  },
+  {
+    "name": {
+      "firstName": "Lora",
+      "lastName": "Macdonald"
+    },
+    "gender": "female",
+    "username": "whitfield",
+    "accountCode": "CHAS2105082063419966",
+    "branchName": "Statenville",
+    "totalAmount": "3,872.91",
+    "email": "whitfieldmacdonald@cuizine.com",
+    "address": {
+      "street": "Pierrepont Place",
+      "aptNo": 888,
+      "city": "San Jose,CA",
+      "state": " Pennsylvania",
+      "country": " Niue,",
+      "zipcode": 31368
+    },
+    "phone": "+1 (877) 512-3979",
+    "ssn": "801-76-4075",
+    "actopendate": "09-08-2016",
+    "acttype": "Checking"
+  },
+  {
+    "name": {
+      "firstName": "Ballard",
+      "lastName": "Hayes"
+    },
+    "gender": "male",
+    "username": "lorene",
+    "accountCode": "CHAS2474192041148985",
+    "branchName": "Glenbrook",
+    "totalAmount": "1,778.13",
+    "email": "lorenehayes@cuizine.com",
+    "address": {
+      "street": "Bayview Place",
+      "aptNo": 878,
+      "city": "Dallas,TX",
+      "state": " Montana",
+      "country": " San Marino,",
+      "zipcode": 56925
+    },
+    "phone": "+1 (921) 437-3829",
+    "ssn": "321-42-5735",
+    "actopendate": "16-01-2015",
+    "acttype": "Saving"
+  },
+  {
+    "name": {
+      "firstName": "Allyson",
+      "lastName": "Holcomb"
+    },
+    "gender": "female",
+    "username": "yang",
+    "accountCode": "CHAS3333202393784411",
+    "branchName": "Yonah",
+    "totalAmount": "2,978.31",
+    "email": "yangholcomb@cuizine.com",
+    "address": {
+      "street": "Ovington Court",
+      "aptNo": 435,
+      "city": "Houston,TX",
+      "state": " Kentucky",
+      "country": " Spain,",
+      "zipcode": 46801
+    },
+    "phone": "+1 (975) 414-3889",
+    "ssn": "446-90-5271",
+    "actopendate": "23-04-2016",
+    "acttype": "Saving"
+  },
+  {
+    "name": {
+      "firstName": "Leach",
+      "lastName": "Craig"
+    },
+    "gender": "male",
+    "username": "brittany",
+    "accountCode": "CHAS2546919562909682",
+    "branchName": "Barstow",
+    "totalAmount": "1,195.77",
+    "email": "brittanycraig@cuizine.com",
+    "address": {
+      "street": "Merit Court",
+      "aptNo": 716,
+      "city": "Los Angeles,CA",
+      "state": " Puerto Rico",
+      "country": " Nauru,",
+      "zipcode": 22381
+    },
+    "phone": "+1 (865) 468-3384",
+    "ssn": "137-40-6571",
+    "actopendate": "19-07-2015",
+    "acttype": "Saving"
+  },
+  {
+    "name": {
+      "firstName": "Solis",
+      "lastName": "Berry"
+    },
+    "gender": "male",
+    "username": "debora",
+    "accountCode": "CHAS2568943659333080",
+    "branchName": "Veyo",
+    "totalAmount": "2,815.90",
+    "email": "deboraberry@cuizine.com",
+    "address": {
+      "street": "Leonora Court",
+      "aptNo": 582,
+      "city": "New York City,NY",
+      "state": " Virginia",
+      "country": " Pitcairn,",
+      "zipcode": 21303
+    },
+    "phone": "+1 (863) 516-2441",
+    "ssn": "809-52-7994",
+    "actopendate": "16-12-2015",
+    "acttype": "Saving"
+  },
+  {
+    "name": {
+      "firstName": "Alberta",
+      "lastName": "Moran"
+    },
+    "gender": "female",
+    "username": "johnson",
+    "accountCode": "CHAS3690856096510788",
+    "branchName": "Saddlebrooke",
+    "totalAmount": "1,304.51",
+    "email": "johnsonmoran@cuizine.com",
+    "address": {
+      "street": "Seagate Avenue",
+      "aptNo": 944,
+      "city": "Houston,TX",
+      "state": " Guam",
+      "country": " Switzerland,",
+      "zipcode": 23920
+    },
+    "phone": "+1 (846) 400-3123",
+    "ssn": "793-58-5588",
+    "actopendate": "20-05-2014",
+    "acttype": "Checking"
+  },
+  {
+    "name": {
+      "firstName": "Marisa",
+      "lastName": "Walton"
+    },
+    "gender": "female",
+    "username": "noelle",
+    "accountCode": "CHAS2884205684417490",
+    "branchName": "Jennings",
+    "totalAmount": "2,121.95",
+    "email": "noellewalton@cuizine.com",
+    "address": {
+      "street": "Bryant Street",
+      "aptNo": 571,
+      "city": "San Jose,CA",
+      "state": " New York",
+      "country": " Belgium,",
+      "zipcode": 21997
+    },
+    "phone": "+1 (879) 454-3349",
+    "ssn": "386-79-7907",
+    "actopendate": "29-05-2014",
+    "acttype": "Checking"
+  },
+  {
+    "name": {
+      "firstName": "Bush",
+      "lastName": "Price"
+    },
+    "gender": "male",
+    "username": "ramsey",
+    "accountCode": "CHAS3874119248958306",
+    "branchName": "Westerville",
+    "totalAmount": "2,499.30",
+    "email": "ramseyprice@cuizine.com",
+    "address": {
+      "street": "Garden Street",
+      "aptNo": 758,
+      "city": "San Antonio,TX",
+      "state": " Connecticut",
+      "country": " Barbados,",
+      "zipcode": 43980
+    },
+    "phone": "+1 (964) 508-3140",
+    "ssn": "883-70-3098",
+    "actopendate": "20-09-2016",
+    "acttype": "Saving"
+  },
+  {
+    "name": {
+      "firstName": "Pierce",
+      "lastName": "Woodard"
+    },
+    "gender": "male",
+    "username": "elnora",
+    "accountCode": "CHAS2201241388876750",
+    "branchName": "Glenshaw",
+    "totalAmount": "1,708.28",
+    "email": "elnorawoodard@cuizine.com",
+    "address": {
+      "street": "Atkins Avenue",
+      "aptNo": 949,
+      "city": "San Diego,CA",
+      "state": " Minnesota",
+      "country": " Antigua and Barbuda,",
+      "zipcode": 55742
+    },
+    "phone": "+1 (885) 557-3393",
+    "ssn": "942-78-5803",
+    "actopendate": "12-02-2017",
+    "acttype": "Saving"
+  },
+  {
+    "name": {
+      "firstName": "Trina",
+      "lastName": "Pruitt"
+    },
+    "gender": "female",
+    "username": "suarez",
+    "accountCode": "CHAS2943128581570197",
+    "branchName": "Roderfield",
+    "totalAmount": "1,222.35",
+    "email": "suarezpruitt@cuizine.com",
+    "address": {
+      "street": "Bush Street",
+      "aptNo": 272,
+      "city": "Philadelphia,PA",
+      "state": " Palau",
+      "country": " Cameroon,",
+      "zipcode": 41637
+    },
+    "phone": "+1 (849) 539-2155",
+    "ssn": "298-48-4961",
+    "actopendate": "25-10-2015",
+    "acttype": "Checking"
+  },
+  {
+    "name": {
+      "firstName": "Marissa",
+      "lastName": "Moses"
+    },
+    "gender": "female",
+    "username": "hooper",
+    "accountCode": "CHAS3215358821392387",
+    "branchName": "Brazos",
+    "totalAmount": "1,408.94",
+    "email": "hoopermoses@cuizine.com",
+    "address": {
+      "street": "Hanson Place",
+      "aptNo": 188,
+      "city": "Dallas,TX",
+      "state": " Texas",
+      "country": " Macedonia,",
+      "zipcode": 51728
+    },
+    "phone": "+1 (853) 516-2353",
+    "ssn": "771-57-6341",
+    "actopendate": "17-01-2015",
+    "acttype": "Checking"
+  },
+  {
+    "name": {
+      "firstName": "Evans",
+      "lastName": "Hurley"
+    },
+    "gender": "male",
+    "username": "ferrell",
+    "accountCode": "CHAS3973950579256068",
+    "branchName": "Rivereno",
+    "totalAmount": "1,897.36",
+    "email": "ferrellhurley@cuizine.com",
+    "address": {
+      "street": "Bokee Court",
+      "aptNo": 674,
+      "city": "San Jose,CA",
+      "state": " South Carolina",
+      "country": " Peru,",
+      "zipcode": 45786
+    },
+    "phone": "+1 (911) 428-2659",
+    "ssn": "577-53-3760",
+    "actopendate": "06-09-2014",
+    "acttype": "Checking"
+  },
+  {
+    "name": {
+      "firstName": "Kristy",
+      "lastName": "Banks"
+    },
+    "gender": "female",
+    "username": "hudson",
+    "accountCode": "CHAS3559968367387721",
+    "branchName": "Mathews",
+    "totalAmount": "3,643.80",
+    "email": "hudsonbanks@cuizine.com",
+    "address": {
+      "street": "Downing Street",
+      "aptNo": 458,
+      "city": "San Antonio,TX",
+      "state": " North Dakota",
+      "country": " Mali,",
+      "zipcode": 34620
+    },
+    "phone": "+1 (889) 575-3865",
+    "ssn": "340-78-1929",
+    "actopendate": "08-10-2016",
+    "acttype": "Checking"
+  },
+  {
+    "name": {
+      "firstName": "Webster",
+      "lastName": "Solis"
+    },
+    "gender": "male",
+    "username": "queen",
+    "accountCode": "CHAS2768686586543500",
+    "branchName": "Sena",
+    "totalAmount": "3,079.02",
+    "email": "queensolis@cuizine.com",
+    "address": {
+      "street": "Minna Street",
+      "aptNo": 671,
+      "city": "Chicago,IL",
+      "state": " New Mexico",
+      "country": " Belize,",
+      "zipcode": 20942
+    },
+    "phone": "+1 (943) 502-2707",
+    "ssn": "997-42-2149",
+    "actopendate": "27-10-2015",
+    "acttype": "Checking"
+  },
+  {
+    "name": {
+      "firstName": "Elma",
+      "lastName": "Finley"
+    },
+    "gender": "female",
+    "username": "betsy",
+    "accountCode": "CHAS2487253869309044",
+    "branchName": "Gerber",
+    "totalAmount": "2,771.11",
+    "email": "betsyfinley@cuizine.com",
+    "address": {
+      "street": "Putnam Avenue",
+      "aptNo": 787,
+      "city": "New York City,NY",
+      "state": " Missouri",
+      "country": " Namibia,",
+      "zipcode": 25460
+    },
+    "phone": "+1 (954) 509-2909",
+    "ssn": "470-12-4179",
+    "actopendate": "26-07-2014",
+    "acttype": "Checking"
+  },
+  {
+    "name": {
+      "firstName": "Rosalie",
+      "lastName": "Marks"
+    },
+    "gender": "female",
+    "username": "merrill",
+    "accountCode": "CHAS2509231860803327",
+    "branchName": "Finderne",
+    "totalAmount": "3,529.71",
+    "email": "merrillmarks@cuizine.com",
+    "address": {
+      "street": "Henry Street",
+      "aptNo": 200,
+      "city": "Los Angeles,CA",
+      "state": " California",
+      "country": " Argentina,",
+      "zipcode": 33923
+    },
+    "phone": "+1 (813) 599-3090",
+    "ssn": "556-86-8899",
+    "actopendate": "28-08-2014",
+    "acttype": "Checking"
+  },
+  {
+    "name": {
+      "firstName": "Roth",
+      "lastName": "Estes"
+    },
+    "gender": "male",
+    "username": "sanchez",
+    "accountCode": "CHAS3372488455668192",
+    "branchName": "Waterloo",
+    "totalAmount": "1,730.77",
+    "email": "sanchezestes@cuizine.com",
+    "address": {
+      "street": "Kingston Avenue",
+      "aptNo": 263,
+      "city": "Dallas,TX",
+      "state": " Tennessee",
+      "country": " Luxembourg,",
+      "zipcode": 72475
+    },
+    "phone": "+1 (908) 438-3870",
+    "ssn": "106-21-4665",
+    "actopendate": "02-09-2016",
+    "acttype": "Saving"
+  },
+  {
+    "name": {
+      "firstName": "Burton",
+      "lastName": "Gaines"
+    },
+    "gender": "male",
+    "username": "chambers",
+    "accountCode": "CHAS3595828716604169",
+    "branchName": "Rodman",
+    "totalAmount": "2,743.54",
+    "email": "chambersgaines@cuizine.com",
+    "address": {
+      "street": "Midwood Street",
+      "aptNo": 945,
+      "city": "Los Angeles,CA",
+      "state": " Marshall Islands",
+      "country": " Yemen,",
+      "zipcode": 31314
+    },
+    "phone": "+1 (943) 556-3056",
+    "ssn": "458-54-1555",
+    "actopendate": "13-08-2016",
+    "acttype": "Saving"
+  },
+  {
+    "name": {
+      "firstName": "Bradley",
+      "lastName": "Glass"
+    },
+    "gender": "male",
+    "username": "kay",
+    "accountCode": "CHAS2033046598775004",
+    "branchName": "Detroit",
+    "totalAmount": "1,516.26",
+    "email": "kayglass@cuizine.com",
+    "address": {
+      "street": "Barbey Street",
+      "aptNo": 612,
+      "city": "Chicago,IL",
+      "state": " Vermont",
+      "country": " Kyrgyzstan,",
+      "zipcode": 49309
+    },
+    "phone": "+1 (967) 402-3033",
+    "ssn": "284-20-3695",
+    "actopendate": "06-11-2014",
+    "acttype": "Saving"
+  },
+  {
+    "name": {
+      "firstName": "Reeves",
+      "lastName": "Holmes"
+    },
+    "gender": "male",
+    "username": "bowers",
+    "accountCode": "CHAS3082685328373742",
+    "branchName": "Lupton",
+    "totalAmount": "2,451.06",
+    "email": "bowersholmes@cuizine.com",
+    "address": {
+      "street": "Bowery Street",
+      "aptNo": 647,
+      "city": "Los Angeles,CA",
+      "state": " New Hampshire",
+      "country": " Puerto Rico,",
+      "zipcode": 10304
+    },
+    "phone": "+1 (878) 414-2377",
+    "ssn": "457-13-2399",
+    "actopendate": "28-08-2016",
+    "acttype": "Saving"
+  },
+  {
+    "name": {
+      "firstName": "Mandy",
+      "lastName": "Sheppard"
+    },
+    "gender": "female",
+    "username": "dejesus",
+    "accountCode": "CHAS2830056721222602",
+    "branchName": "Carrizo",
+    "totalAmount": "1,114.41",
+    "email": "dejesussheppard@cuizine.com",
+    "address": {
+      "street": "Fairview Place",
+      "aptNo": 708,
+      "city": "Los Angeles,CA",
+      "state": " West Virginia",
+      "country": " Zambia,",
+      "zipcode": 64108
+    },
+    "phone": "+1 (804) 556-2102",
+    "ssn": "685-94-4840",
+    "actopendate": "16-09-2014",
+    "acttype": "Saving"
+  },
+  {
+    "name": {
+      "firstName": "Hester",
+      "lastName": "Goff"
+    },
+    "gender": "male",
+    "username": "jenkins",
+    "accountCode": "CHAS2363939696865811",
+    "branchName": "Harrison",
+    "totalAmount": "3,848.66",
+    "email": "jenkinsgoff@cuizine.com",
+    "address": {
+      "street": "Lake Street",
+      "aptNo": 494,
+      "city": "San Jose,CA",
+      "state": " South Dakota",
+      "country": " Trinidad and Tobago,",
+      "zipcode": 34180
+    },
+    "phone": "+1 (984) 586-2500",
+    "ssn": "552-44-5340",
+    "actopendate": "15-02-2014",
+    "acttype": "Checking"
+  },
+  {
+    "name": {
+      "firstName": "Snider",
+      "lastName": "Harrell"
+    },
+    "gender": "male",
+    "username": "stella",
+    "accountCode": "CHAS3118169003802656",
+    "branchName": "Fairhaven",
+    "totalAmount": "2,361.36",
+    "email": "stellaharrell@cuizine.com",
+    "address": {
+      "street": "Willmohr Street",
+      "aptNo": 546,
+      "city": "Houston,TX",
+      "state": " Nebraska",
+      "country": " Uruguay,",
+      "zipcode": 50864
+    },
+    "phone": "+1 (961) 560-3609",
+    "ssn": "640-42-8272",
+    "actopendate": "20-01-2016",
+    "acttype": "Saving"
+  },
+  {
+    "name": {
+      "firstName": "Heidi",
+      "lastName": "Foster"
+    },
+    "gender": "female",
+    "username": "joni",
+    "accountCode": "CHAS3991161051045882",
+    "branchName": "Fresno",
+    "totalAmount": "2,687.18",
+    "email": "jonifoster@cuizine.com",
+    "address": {
+      "street": "Bristol Street",
+      "aptNo": 314,
+      "city": "San Jose,CA",
+      "state": " Indiana",
+      "country": " Zimbabwe,",
+      "zipcode": 60463
+    },
+    "phone": "+1 (970) 474-3097",
+    "ssn": "762-33-7571",
+    "actopendate": "12-12-2015",
+    "acttype": "Checking"
+  },
+  {
+    "name": {
+      "firstName": "Oliver",
+      "lastName": "Ballard"
+    },
+    "gender": "male",
+    "username": "elise",
+    "accountCode": "CHAS2456357204125896",
+    "branchName": "Cumberland",
+    "totalAmount": "3,150.99",
+    "email": "eliseballard@cuizine.com",
+    "address": {
+      "street": "Richardson Street",
+      "aptNo": 159,
+      "city": "New York City,NY",
+      "state": " Florida",
+      "country": " Angola,",
+      "zipcode": 62034
+    },
+    "phone": "+1 (857) 540-2463",
+    "ssn": "974-50-8070",
+    "actopendate": "03-03-2016",
+    "acttype": "Checking"
+  },
+  {
+    "name": {
+      "firstName": "Mercado",
+      "lastName": "Doyle"
+    },
+    "gender": "male",
+    "username": "pittman",
+    "accountCode": "CHAS3002827448781308",
+    "branchName": "Zarephath",
+    "totalAmount": "3,701.89",
+    "email": "pittmandoyle@cuizine.com",
+    "address": {
+      "street": "Locust Street",
+      "aptNo": 879,
+      "city": "New York City,NY",
+      "state": " Washington",
+      "country": " Japan,",
+      "zipcode": 26613
+    },
+    "phone": "+1 (821) 494-2080",
+    "ssn": "804-37-2093",
+    "actopendate": "21-08-2015",
+    "acttype": "Checking"
+  },
+  {
+    "name": {
+      "firstName": "Letitia",
+      "lastName": "Evans"
+    },
+    "gender": "female",
+    "username": "sylvia",
+    "accountCode": "CHAS3153243618259837",
+    "branchName": "Calvary",
+    "totalAmount": "1,512.27",
+    "email": "sylviaevans@cuizine.com",
+    "address": {
+      "street": "Chapel Street",
+      "aptNo": 267,
+      "city": "Houston,TX",
+      "state": " Michigan",
+      "country": " Congo,",
+      "zipcode": 60406
+    },
+    "phone": "+1 (942) 569-2997",
+    "ssn": "866-69-1424",
+    "actopendate": "02-10-2015",
+    "acttype": "Saving"
+  },
+  {
+    "name": {
+      "firstName": "Delacruz",
+      "lastName": "Barrett"
+    },
+    "gender": "male",
+    "username": "jenny",
+    "accountCode": "CHAS3456977130640837",
+    "branchName": "Odessa",
+    "totalAmount": "1,400.58",
+    "email": "jennybarrett@cuizine.com",
+    "address": {
+      "street": "Bowne Street",
+      "aptNo": 636,
+      "city": "Phoenix,AZ",
+      "state": " Arizona",
+      "country": " Lebanon,",
+      "zipcode": 87517
+    },
+    "phone": "+1 (910) 537-2243",
+    "ssn": "829-70-3154",
+    "actopendate": "28-03-2016",
+    "acttype": "Checking"
+  },
+  {
+    "name": {
+      "firstName": "Carissa",
+      "lastName": "Payne"
+    },
+    "gender": "female",
+    "username": "kenya",
+    "accountCode": "CHAS3903324689772698",
+    "branchName": "Hall",
+    "totalAmount": "1,210.85",
+    "email": "kenyapayne@cuizine.com",
+    "address": {
+      "street": "Cozine Avenue",
+      "aptNo": 970,
+      "city": "Dallas,TX",
+      "state": " Mississippi",
+      "country": " Thailand,",
+      "zipcode": 70045
+    },
+    "phone": "+1 (988) 591-2718",
+    "ssn": "845-21-7461",
+    "actopendate": "14-05-2014",
+    "acttype": "Checking"
+  }
+]

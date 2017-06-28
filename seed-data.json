@@ -1,0 +1,333 @@
+  {
+  "name": {
+    "firstName":"Tom",
+    "lastName": "Rit"},
+    "gender":"Male",
+  "username": "Vladimir.Feest",
+  "accountID":"435261839156781",
+  "branchName":"New York",
+  "totalAmount":"345600",
+    "email": "Llewellyn_Robel@gmail.com",
+  "address": {
+    "street": "Ratke Street",
+    "aptNo": "Apt. 095",
+    "city": "Crooksstad",
+    "state": "New Hampshire",
+    "country": "Ukraine",
+    "zipcode": "53303"   
+  },
+  "phone": "477-849-4756",
+  "ssn":"123-456-789",
+  "actopendate":"1-May-2015",
+  "acttype":"Checking",
+  "website": "emile.org",
+  "company": {
+    "name": "Stehr Inc",
+    "catchPhrase": "Universal 6th generation contingency",
+    "bs": "granular whiteboard bandwidth"
+  }
+}
+  {
+  "name": {
+    "firstName":"Mary",
+    "lastName": "May"},
+    "gender":"Female",
+  "username": "Vladimir.Feest",
+  "accountID":"435261839156782",
+  "branchName":"New York",
+  "totalAmount":"345600",
+    "email": "Mary_May@gmail.com",
+  "address": {
+    "street": "Ratke Street",
+    "aptNo": "Apt. 095",
+    "city": "Crooksstad",
+    "state": "New Hampshire",
+    "country": "Ukraine",
+    "zipcode": "53304"   
+  },
+  "phone": "477-849-4756 x71565",
+  "ssn":"123-456-789",
+  "actopendate":"1-May-2016",
+  "acttype":"Saving",
+  "website": "emile.org",
+  "company": {
+    "name": "Stehr Inc",
+    "catchPhrase": "Universal 6th generation contingency",
+    "bs": "granular whiteboard bandwidth"
+  }
+}
+  {
+  "name": {
+    "firstName":"Fern",
+    "lastName": "Ritchie"},
+  "username": "Vladimir.Feest",
+  "accountID":"435261839156783",
+  "branchName":"New York",
+  "totalAmount":"345600",
+    "email": "Llewellyn_Robel@gmail.com",
+  "address": {
+    "street": "Ratke Street",
+    "aptNo": "Apt. 095",
+    "city": "Crooksstad",
+    "state": "New Hampshire",
+    "country": "Ukraine",
+    "zipcode": "53303"   
+  },
+  "phone": "477-849-4756 x71564",
+  "website": "emile.org",
+  "company": {
+    "name": "Stehr Inc",
+    "catchPhrase": "Universal 6th generation contingency",
+    "bs": "granular whiteboard bandwidth"
+  }
+}
+{
+  "name": {
+    "firstName":"Rich",
+    "lastName": "Heilman"},
+  "username": "Vladimir.Feest",
+  "accountID":"435261839156784",
+  "branchName":"New York",
+  "totalAmount":"345600",
+    "email": "Llewellyn_Robel@gmail.com",
+  "address": {
+    "street": "Ratke Street",
+    "aptNo": "Apt. 095",
+    "city": "Crooksstad",
+    "state": "New Hampshire",
+    "country": "Ukraine",
+    "zipcode": "53303"   
+  },
+  "phone": "477-849-4756 x71564",
+  "website": "emile.org",
+  "company": {
+    "name": "Stehr Inc",
+    "catchPhrase": "Universal 6th generation contingency",
+    "bs": "granular whiteboard bandwidth"
+  }
+}
+{
+  "name": {
+    "firstName":"James",
+    "lastName": "Newman"},
+  "username": "Vladimir.Feest",
+  "accountID":"435261839156785",
+  "branchName":"New York",
+  "totalAmount":"345600",
+    "email": "Llewellyn_Robel@gmail.com",
+  "address": {
+    "street": "Ratke Street",
+    "aptNo": "Apt. 095",
+    "city": "Crooksstad",
+    "state": "New Hampshire",
+    "country": "Ukraine",
+    "zipcode": "53303"   
+  },
+  "phone": "477-849-4756 x71566",
+  "website": "emile.org",
+  "company": {
+    "name": "Stehr Inc",
+    "catchPhrase": "Universal 6th generation contingency",
+    "bs": "granular whiteboard bandwidth"
+  }
+}
+{
+  "name": {
+    "firstName":"Emily",
+    "lastName": "Sykes"},
+  "username": "Vladimir.Feest",
+  "accountID":"435261839156786",
+  "branchName":"New York",
+  "totalAmount":"345600",
+    "email": "Llewellyn_Robel@gmail.com",
+  "address": {
+    "street": "Ratke Street",
+    "aptNo": "Apt. 095",
+    "city": "Crooksstad",
+    "state": "New Hampshire",
+    "country": "Ukraine",
+    "zipcode": "53303"   
+  },
+  "phone": "477-849-4756 x71564",
+  "website": "emile.org",
+  "company": {
+    "name": "Stehr Inc",
+    "catchPhrase": "Universal 6th generation contingency",
+    "bs": "granular whiteboard bandwidth"
+  }
+}
+{
+  "name": {
+    "firstName":"Margret",
+    "lastName": "Marmajuke"},
+  "username": "Vladimir.Feest",
+  "accountID":"435261839156787",
+  "branchName":"New York",
+  "totalAmount":"345600",
+    "email": "Llewellyn_Robel@gmail.com",
+  "address": {
+    "street": "Ratke Street",
+    "aptNo": "Apt. 095",
+    "city": "Crooksstad",
+    "state": "New Hampshire",
+    "country": "Ukraine",
+    "zipcode": "53303"   
+  },
+  "phone": "477-849-4756 x71564",
+  "website": "emile.org",
+  "company": {
+    "name": "Stehr Inc",
+    "catchPhrase": "Universal 6th generation contingency",
+    "bs": "granular whiteboard bandwidth"
+  }
+}
+{
+  "name": {
+    "firstName":"Brendon ",
+    "lastName": "Philips"},
+  "username": "Vladimir.Feest",
+  "accountID":"435261839156788",
+  "branchName":"New York",
+  "totalAmount":"345600",
+    "email": "Llewellyn_Robel@gmail.com",
+  "address": {
+    "street": "Ratke Street",
+    "aptNo": "Apt. 095",
+    "city": "Crooksstad",
+    "state": "New Hampshire",
+    "country": "Ukraine",
+    "zipcode": "53303"   
+  },
+  "phone": "477-849-4756 x71564",
+  "website": "emile.org",
+  "company": {
+    "name": "Stehr Inc",
+    "catchPhrase": "Universal 6th generation contingency",
+    "bs": "granular whiteboard bandwidth"
+  }
+}
+{
+  "name": {
+    "firstName":"Frank",
+    "lastName": "Harbours"},
+  "username": "Vladimir.Feest",
+  "accountID":"435261839156789",
+  "branchName":"New York",
+  "totalAmount":"345600",
+    "email": "Llewellyn_Robel@gmail.com",
+  "address": {
+    "street": "Ratke Street",
+    "aptNo": "Apt. 095",
+    "city": "Crooksstad",
+    "state": "New Hampshire",
+    "country": "Ukraine",
+    "zipcode": "53303"   
+  },
+  "phone": "477-849-4756 x71564",
+  "website": "emile.org",
+  "company": {
+    "name": "Stehr Inc",
+    "catchPhrase": "Universal 6th generation contingency",
+    "bs": "granular whiteboard bandwidth"
+  }
+}
+{
+  "name": {
+    "firstName":"Oil",
+    "lastName": "Bob"},
+  "username": "Vladimir.Feest",
+  "accountID":"435261839156790",
+  "branchName":"New York",
+  "totalAmount":"345600",
+    "email": "Llewellyn_Robel@gmail.com",
+  "address": {
+    "street": "Ratke Street",
+    "aptNo": "Apt. 095",
+    "city": "Crooksstad",
+    "state": "New Hampshire",
+    "country": "Ukraine",
+    "zipcode": "53303"   
+  },
+  "phone": "477-849-4756 x71564",
+  "website": "emile.org",
+  "company": {
+    "name": "Stehr Inc",
+    "catchPhrase": "Universal 6th generation contingency",
+    "bs": "granular whiteboard bandwidth"
+  }
+}
+{
+  "name": {
+    "firstName":"Gemma",
+    "lastName": "Jane"},
+  "username": "Vladimir.Feest",
+  "accountID":"435261839156791",
+  "branchName":"New York",
+  "totalAmount":"345600",
+    "email": "Llewellyn_Robel@gmail.com",
+  "address": {
+    "street": "Ratke Street",
+    "aptNo": "Apt. 095",
+    "city": "Crooksstad",
+    "state": "New Hampshire",
+    "country": "Ukraine",
+    "zipcode": "53303"   
+  },
+  "phone": "477-849-4756 x71564",
+  "website": "emile.org",
+  "company": {
+    "name": "Stehr Inc",
+    "catchPhrase": "Universal 6th generation contingency",
+    "bs": "granular whiteboard bandwidth"
+  }
+}
+{
+  "name": {
+    "firstName":"Jamie",
+    "lastName": "Newhart"},
+  "username": "Vladimir.Feest",
+  "accountID":"435261839156792",
+  "branchName":"New York",
+  "totalAmount":"345600",
+    "email": "Llewellyn_Robel@gmail.com",
+  "address": {
+    "street": "Ratke Street",
+    "aptNo": "Apt. 095",
+    "city": "Crooksstad",
+    "state": "New Hampshire",
+    "country": "Ukraine",
+    "zipcode": "53303"   
+  },
+  "phone": "477-849-4756 x71564",
+  "website": "emile.org",
+  "company": {
+    "name": "Stehr Inc",
+    "catchPhrase": "Universal 6th generation contingency",
+    "bs": "granular whiteboard bandwidth"
+  }
+}
+{
+  "name": {
+    "firstName":"Christine",
+    "lastName": "Lobowski"},
+  "username": "Vladimir.Feest",
+  "accountID":"435261839156793",
+  "branchName":"New York",
+  "totalAmount":"345600",
+    "email": "Llewellyn_Robel@gmail.com",
+  "address": {
+    "street": "Ratke Street",
+    "aptNo": "Apt. 095",
+    "city": "Crooksstad",
+    "state": "New Hampshire",
+    "country": "Ukraine",
+    "zipcode": "53303"   
+  },
+  "phone": "477-849-4756 x71564",
+  "website": "emile.org",
+  "company": {
+    "name": "Stehr Inc",
+    "catchPhrase": "Universal 6th generation contingency",
+    "bs": "granular whiteboard bandwidth"
+  }
+}
