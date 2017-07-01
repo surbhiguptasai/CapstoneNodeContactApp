@@ -1,15 +1,16 @@
 const mongoose = require('mongoose');
+const bcrypt = require('bcryptjs');
+const moment = require('moment');
+mongoose.Promise = global.Promise;
 
 // this is our schema to represent a user
 const  userSchema = mongoose.Schema({
+  
   username: {type: String},
   name: {
     firstName: String,
     lastName: String
   },
-  accountCode:String,
-  totalAmount:String,
-  branchName:String,
   email: {type: String},
   address: {
     street: String,
@@ -20,10 +21,12 @@ const  userSchema = mongoose.Schema({
     zipcode: String   
   },
    phone: {type: String, maxLength:12},
-   ssn:{type: String, maxLength:11},
-   actopendate:{type: String},
+   
    gender:{type: String},
-   acttype:{type: String}
+   age:{type: String},
+   company:{type: String},
+   about:{type: String}
+ 
 });
 
 // *virtuals* (http://mongoosejs.com/docs/guide.html#virtuals)
@@ -33,7 +36,7 @@ const  userSchema = mongoose.Schema({
 // we're storing in Mongo.
 // this virtual grabs the most recent grade for a user.
 userSchema.virtual('addressString').get(function() {
-  return `${this.address.street} ${this.address.city}`.trim()});
+  return `${this.address.street} ${this.address.city} ${this.address.state} ${this.address.zipcode} ${this.address.country}`.trim()});
 userSchema.virtual('userNameString').get(function() {
   return `${this.name.firstName} ${this.name.lastName}`.trim()});
 
@@ -45,17 +48,19 @@ userSchema.methods.apiRepr = function() {
   return {
     id: this._id,
     name: this.userNameString,
-    accountCode:this.accountCode,
-    totalAmount:this.totalAmount,
-    branchName:this.branchName,
     email: this.email,
-    address: this.addressString,
-    city:this.address.city,
     phone:this.phone,
-    ssn:this.ssn,
-    actopendate:this.actopendate,
     gender:this.gender,
-    acttype:this.acttype
+    age: this.age,
+    street:this.address.street,
+    aptNo:this.address.aptNo,
+    city:this.address.city,
+    state:this.address.state,
+    zipcode:this.address.zipcode,
+    country: this.address.country,
+    address: this.addressString,
+    company:this.company,
+    about:this.about
   };
 }
 
@@ -63,4 +68,37 @@ userSchema.methods.apiRepr = function() {
 // schema must be defined *before* we make the call to `.model`.
 const UserDetail = mongoose.model('UserDetail', userSchema,'userDetails');
 
-module.exports = {UserDetail};
+const  userContacts = mongoose.Schema({
+   userId: {type: String,
+    required: true,
+    unique: true},
+    password: {
+    type: String,
+    required: true
+  },
+   contacts:[userSchema]
+
+});
+
+userContacts.methods.apiRepr = function() {
+  return {
+    username: this.userId || '',
+    contacts: this.contacts
+  };
+}
+
+userContacts.methods.validatePassword = function(password) {
+  console.log("Inside password validation")
+  console.log(" password is "+password);
+  console.log(" this.password is "+this.password);
+  console.log(" compare is "+bcrypt.compare(password, this.password));
+  return bcrypt.compare(password, this.password);
+}
+
+userContacts.statics.hashPassword = function(password) {
+  return bcrypt.hash(password, 10);
+}
+
+const UserContact = mongoose.model('UserContact', userContacts,'userContacts');
+
+module.exports = {UserDetail,UserContact};

@@ -1,237 +1,75 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/tabulator/2.11.0/tabulator.min.css" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<title></title>
+	<title>My Contacts</title>
+	<meta name="description" content="My Contacts helps you to 
+      manage your contacts.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400i,700i" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/float-grid.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">	
 </head>
 <body>
 
+	<div id="nav-bar-wrap">
+		<div id="nav-bar">
+			<a href="../"><header class="site-title">My Contacts</header></a>
+			<div class="burger-container">
+				<div class="burger">&#9776;</div>
+				<div class="x">&#735;</div>
+			</div>
+			<div class="nav-items-wrap">
+				<div class="nav-item" title="about"><a href="#about">About</a></div>
+				<div class="nav-item js-demo" title="demo"><a href="">Demo</a></div>
+				<div class="nav-item" title="sign up"><a href="#sign-up">Sign up</a></div>
+				<div class="nav-item" title="sign in"><a href="#sign-in"><div class="nav-button">Sign in</div></a></div>
+			</div>
+		</div>
+	</div>
+	<div class="content-wrap">
+		<main class="front-page"><img src = "../img/bgImageAddPage.jpg"><header>
+			<h1>My Contacts</h1>
+			<p>My Contacts helps you to <br/> manage your contacts.</p>
+			</header>
+		</main></div>
+	<div class="gray-back">
+		<div class="about-box content-wrap">				
+				<div id="about">
+					<h2>Now you don’t need to worry about losing contact numbers of your loved ones..</h2>
+					<p>My Contacts App enables users to easily store and find contact information, such as names, addresses and telephone numbers.</p>
+					<ol>
+						<li> <b>Add</b> your contact</li>
+						<li><b>Edit</b> your contact</li>
+						<li><b>Remove</b> your contact</li>
+						<li> <b>Get</b> your contact</li>
+						<li> <b>Download</b> your contact</li>
+					</ol>
+					<p class="center">Not ready to sign up? Try out the <a href="#" title="Demo" class="js-demo">Demo</a>.</p>
+				</div>	
+				<div id="sign-up">
+					<form class="sign-up-form" action="#">
+						<h2>Create an account</h2>
+						<label for="username">Username</label>
+						<input type="username" placeholder="your username" name="username" id="username" required>
+						<label for="password">Password</label>
+						<input type="password" name="password" id="password" required>
+						<label for="passwordConfirm">Confirm Password</label>
+						<input type="password" name="passwordConfirm" id="passwordConfirm" required>
+						<button type="submit">Create account</button>
+						<div class="message-box">
+							<span class="js-message"></span>
+						</div>
+					</form>
+				</div>		
+		</div>
+	</div>			
 
-<div class="container-fluid">
-<div class="row header1">
-<header id="header">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="menu.js"></script>
+	<script src="check-login-status.js"></script>
+	<script src="sign-up.js"></script>
 
-
-<div id="logoImg" class="col-xs-5 col-sm-2 col-md-2 col-lg-1" ><img src="img/logo3.jpg" ></div>
-<div class="col-xs-7">
-<h1><b>EXPRESS BANK</b></h1>
-<h6>(For Admin Use Only:View,Modify & Add User)</h6>
-</div>
-
-</header>
-</div>
-</div>
-
-
-
-<div class="container-fluid form1">
-<form class="form-horizontal">
-
-<div class="row">
- <div class="form-group col-md-3 col-sm-6">
-<label for="acttype" >Account Type</label>
-<select id="acttype" class="form-control col-md-3" value="Accountid" >
-<option value="SelectAccountType">Select Account Type</option>
-</select>
-</div>
-<div class="form-group col-md-3 col-sm-6">
-<label for="gender" >Gender</label>
-<select id="gender" class="form-control col-md-2" value="Gender" >
-<option value="SelectGender">Select Gender</option>
-</select>
-</div>
-<div class="form-group col-md-3 col-sm-6">
-<label for="city">City</label>
-<select id="city" class="cityClass form-control" value="City" >
-<option value="SelectCity">Select City</option>
-</select>
-</div>
-<div class="form-group col-md-3 col-sm-6">
-<label for="limit">Limit Results</label>
-<select id="limit" class="form-control" value="LimitResults" >
-<option value="100">100</option>
-<option value="200">200</option>
-<option value="300">300</option>
-</select>
-</div>
-</div>
-<div class="row">
-<div class="form-group col-md-3 col-sm-6">
-<label for="socSec">Social Security</label>
-<input type="text" class="form-control" id="ssn" placeholder="Social Security">
-</div>
-<div class="form-group col-md-3 col-sm-6">
-<label for="accountcode">Account Code</label>
-<input type="text" class="form-control" id="accountCode" placeholder="Account Code">
-</div>
-<div class="form-group col-md-3 col-sm-6">
-<label for="Name">User Name</label>
-<input type="text" class="form-control" id="username" placeholder="Name">
-<!-- <label for="Name">User Name</label>
-<input type="text" id="username" placeholder="Name"> -->
-</div>
-</div>
-</form>
-
-
-<button id="userSubmit" class="show btn btn-primary btn-responsive">Submit</button>
-
-<div id="hidden" class="toggle form-group">
-<button id="save-row" class="btn btn-primary btn-responsive">Save User</button>
-<button id="delete-row" class="btn btn-primary btn-responsive">Delete User</button>
-
-
-
-<button id="add-row" class="btn btn-primary btn-responsive" onclick="document.getElementById('id01').style.display='block'">Add User</button>
-<a id="download-csv"><img src="img/downloadCSV.jpg" class="image download"></a>
-<a id="download-json"><img src="img/downloadJson.png" class="image download"></a></div>
-
-<div id="id01" class="modal container-fluid form-horizontal">
-	  <form class="modal-content animate form-horizontal"  action="JavaScript:handleAddUser()">
-    <div class="imgcontainer">
-      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-      <!-- <img src="img/logo3.jpg" alt="Avatar" class="avatar"> -->
-    </div>
-
-<h1 class="form2h1">New User Details</h1>
-<div>
-  
-    <div class="form-group row"> 
-    <div class="col-xs-0 col-md-2"></div>
-        <label class="labelClass col-xs-12 col-md-4"><b>First Name</b> </label>
-        <input id="given-name" name="given-name" type="text" class="inputclass  col-xs-12 col-md-4" placeholder="First name only" required autofocus> 
-		   <div class=" col-xs-0 col-md-2"></div>
-    </div>
-    <div class="form-group row"> 
-    <div class="col-xs-0 col-md-2"></div>
-        <label class="labelClass col-xs-12 col-md-4"><b>Last Name</b></label>
-        <input id="family-name" name="family-name" type="text" class="inputclass col-xs-12 col-md-4" placeholder="Last name only" required autofocus> 
-		<div class=" col-xs-0 col-md-2"></div>
-    </div>
-    <div class="form-group row">
-<div class="col-xs-0 col-md-2"></div>
-        <label class="labelClass col-xs-12 col-md-4"><b>Gender</b></label>
-        <select id="genderp" name="gen" type="text" class="inputclass col-xs-12 col-md-4" placeholder="Gender">
-        <option value="SelectGender">Select Gender</option>
-         </select>
-         <div class=" col-xs-0 col-md-2"></div>
-    </div> 
-    <div class="form-group row"> 
-    <div class="col-xs-0 col-md-2"></div>
-       <label class="labelClass col-xs-12 col-md-4"><b>Email</b></label>
-
-        <input id="email" name="email" type="email" class="inputclass col-xs-12 col-md-4" placeholder="example@domain.com" required>
-<div class=" col-xs-0 col-md-2"></div>
-    </div> 
-
-    <div class="form-group row">
-    <div class="col-xs-0 col-md-2"></div>
-    <label class="labelClass col-xs-12 col-md-4"><b>City</b></label>
-
-    <select id="cityp" class="inputclass col-xs-12 col-md-4" class="cityClass" value="City" >
-<option value="SelectCity">Select City</option>
-</select>
-<div class=" col-xs-0 col-md-2"></div>
-  </div>
-  <div class="form-group row"> 
-  <div class="col-xs-0 col-md-2"></div>
-   <label class="labelClass col-xs-12 col-md-4"><b>Phone</b></label>
-        <input id="phone" name="phone" type="tel" class="inputclass col-xs-12 col-md-4" placeholder="Eg. +447000 000000" required>
-<div class=" col-xs-0 col-md-2"></div>
-    </div> 
-    <div class="form-group row"> 
-    <div class="col-xs-0 col-md-2"></div>
-    <label class="labelClass col-xs-12 col-md-4"><b>SSN Number</b></label>
-        <input id="ssnp" name="ssn" type="number" class="inputclass col-xs-12 col-md-4" required>
-        <div class=" col-xs-0 col-md-2"></div>
-    </div> 
-  
-    
-      <div class="form-group row"> 
-      <div class="col-xs-0 col-md-2"></div>
-      <label class="labelClass col-xs-12 col-md-4"><b>Account Type</b></label>
-
-        <select id="acttypep" name="actType" type="text" class="inputclass col-xs-12 col-md-4" required >
-        <option value="SelectAccountType">Select Account Type</option>
-        </select> 
-  <div class=" col-xs-0 col-md-2"></div>
-    </div>
-     <div class="form-group row"> 
-     <div class="col-xs-0 col-md-2"></div>
-    <label class="labelClass col-xs-12 col-md-4"><b>Account Code</b></label>
-        
-        <input id="actCode" name="actCode" type="text" class="inputclass col-xs-12 col-md-4" required > 
-	<div class=" col-xs-0 col-md-2"></div>
-    </div>
-    <div class="form-group row">
-    <div class="col-xs-0 col-md-2"></div> 
-    <label class="labelClass col-xs-12 col-md-4"><b>Branch Name</b></label>
-        
-        <input id="brName" name="brName" type="text" class="inputclass col-xs-12 col-md-4" required > 
-	<div class=" col-xs-0 col-md-2"></div>
-    </div>
-    <div class="form-group row"> 
-    <div class="col-xs-0 col-md-2"></div>
-    <label class="labelClass col-xs-12 col-md-4"><b>Balance</b></label>
-      
-        <input id="bal" name="bal" class="inputclass col-xs-12 col-md-4" type="number" >
-	 <div class=" col-xs-0 col-md-2"></div>
-    </div>
-    <div class="form-group row"> 
-    <div class="col-xs-0 col-md-2"></div>
-    <label class="labelClass col-xs-12 col-md-4"><b>Account Open Date</b></label>
-        
-        <input id="accOpenDate" name="date" class="inputclass col-xs-12 col-md-4" type="date">
-	<div class=" col-xs-0 col-md-2"></div>
-    </div>
-  </div> 
-   
-  	<div class="form2btn"> 
-    <div class="col-xs-6"></div>
-	    <button id="userSubmit" type="submit" class="btn btn-primary btn-responsive">Add User</button> 
-    </div> 
- 
-</form>
-
-</div>
-
-</div>
-<div class="container-fluid results">
-<div id="showResult"></div>
-</div>
-
-<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
- 
- 
- <script
-  src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"
-  ></script>
- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
- <script  src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.3/require.min.js"></script>
-<script type="text/javascript" src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tabulator/2.11.0/tabulator.min.js"></script>
-
-<script type="text/javascript" src="js/user_details.js"></script>
-<script>
-// Get the modal
-var modal = document.getElementById('id01');
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
-$(document).ready(function() {
-    $('#showResult').DataTable( {
-        "lengthMenu": [[10, 25, 50, -1], [10, 25, 50, "All"]]
-    } );
-} );
-</script>
 </body>
 </html>
