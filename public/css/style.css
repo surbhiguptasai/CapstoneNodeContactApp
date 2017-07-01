@@ -74,7 +74,7 @@
 }
 
 body{
-	background-image: url("../img/bankBG8.jpg");
+	/*background-image: url("../img/bgImageAddPage.jpg");*/
 }
 #form-{
 	
@@ -175,7 +175,7 @@ button{
 }
 .hide{
 
-	visibility: hidden;
+
 }
 #delete-row,#save-row,#add-row{
 	/*height: 30px;
@@ -197,7 +197,7 @@ button{
     margin-left: 25%;
 }
 .form1{
-    margin-top: 5px;
+    margin-top: 100px;
 }
 #fieldset{
     display: inline-block;
@@ -245,6 +245,7 @@ button{
 h1{
     font-size: 15px;
 }
+
 .form-group{
     padding-left: 0px;
 }
@@ -263,7 +264,9 @@ h1{
 {
 display:block !important;
 }
-
+.tabulator {
+    margin-left: 15px;
+}
 .tabulator .tabulator-header .tabulator-col, .tabulator .tabulator-header .tabulator-col-row-handle
 {
     display:block !important;
@@ -313,7 +316,9 @@ display:block !important;
     .tabulator-cell:nth-of-type(10):before { content: "AccOpenDate" !important; }
     .tabulator-cell:nth-of-type(11):before { content: "Balance ($)" !important; }
 
-
+.container-fluid{
+padding-left: 0px;
+}
     @media only screen
     and (min-device-width : 320px)
     and (max-device-width : 480px) {
@@ -396,6 +401,12 @@ display:block !important;
 
          
         }
+        .container-fluid{
+padding-left: 0px;
+}
+.tabulator {
+    margin-left: 15px;
+}
           .btn-responsive {
     padding:4px 9px;
     font-size:90%;
@@ -414,6 +425,12 @@ display:block !important;
     font-size:120%;
     line-height: 1.2;
   }
+  .tabulator {
+    margin-left: 15px;
+}
+  .container-fluid{
+padding-left: 0px;
+}
         }
 
 
