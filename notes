@@ -12,4 +12,9 @@ Remove your contact
 Get your contacts
 Download your contacts 
 
+mongodb://<dbuser>:<dbpassword>@ds143342.mlab.com:43342/capstonecontactnode
+ mongo ds143342.mlab.com:43342/capstonecontactnode -u <dbuser> -p <dbpassword> 
+
+ mongoimport --db capstonecontactnode --collection userContacts --drop --file C:\\Users\\ravindra\\Desktop\\Thinkful-Projects\\NodeJS\\CapstoneNodeContactApp\\seed-data1.json --host ds143342.mlab.com --port 43342  -u surbhi -p surbhi
+
 
