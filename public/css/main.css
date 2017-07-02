@@ -108,7 +108,7 @@ a:visited {
 }
 
 .content-wrap {
-	max-width: 1000px;
+	/*max-width: 1000px;*/
 	margin: 0 auto;
 }
 
@@ -122,8 +122,8 @@ main {
 
 .front-page header {
 	position: absolute;
-	left: 28.8%;
-	top: 24.2%;
+	left: 38.8%;
+	top: 34.2%;
 	color: black;
 }
 
@@ -138,7 +138,7 @@ main {
 .front-page p {
 	margin: 0;
 	font-size: 30px;
-	color: black;
+	color: gray;
 }
 
 .front-page img {
@@ -972,7 +972,7 @@ footer {
 	}
 
 	.front-page img {
-		margin-left: -20px;
+		/*margin-left: -20px;*/
 	}
 
 	.about-box {
@@ -1007,7 +1007,7 @@ footer {
 	}
 
 	.front-page img {
-		margin-left: -30px;
+		/*margin-left: -30px;*/
 	}
 
 	.date-box {
@@ -1084,7 +1084,7 @@ footer {
 	}
 
 	.front-page img {
-		margin-left: -40px;
+		/*margin-left: -40px;*/
 	}
 
 	.date-box {

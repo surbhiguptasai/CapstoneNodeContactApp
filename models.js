@@ -36,7 +36,7 @@ const  userSchema = mongoose.Schema({
 // we're storing in Mongo.
 // this virtual grabs the most recent grade for a user.
 userSchema.virtual('addressString').get(function() {
-  return `${this.address.street} ${this.address.city} ${this.address.state} ${this.address.zipcode} ${this.address.country}`.trim()});
+  return `${this.address.city} ${this.address.state}`.trim()});
 userSchema.virtual('userNameString').get(function() {
   return `${this.name.firstName} ${this.name.lastName}`.trim()});
 

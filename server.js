@@ -73,7 +73,9 @@ app.post('/contacts/add', (req, res) => {
          username: req.body.username,
          email: req.body.email,
          address: req.body.address,
-         phone: req.body.phone 
+         phone: req.body.phone, 
+         age: req.body.age,
+         company:req.body.company
     }
     contacts.push(newContact);
         users[0].contacts=contacts;
