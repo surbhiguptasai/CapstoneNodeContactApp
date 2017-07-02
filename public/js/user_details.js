@@ -27,7 +27,7 @@ function updateDASH_USER(fetchedUser) {
     $("#hidden").addClass('show');
     userSubmit();
     getAllContacts();
-    $("#loggedinUser").html('<div class="nav-item" >User ('+DASH_USER.username+')</div>');
+    $("#loggedinUser").html('<div class="nav-item" >'+DASH_USER.username+'</div>');
 
     return DASH_USER;
 }
