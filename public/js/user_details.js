@@ -76,7 +76,9 @@ $("#showResult").tabulator({
         
         {title:"Phone", field:"phone", sorter:"string",headerFilter:true,editable:true },
         // {title:"About", field:"about", sorter:"string",headerFilter:true },
-        {title:"Address", field:"address", sorter:"string",headerFilter:true }
+        {title:"Address", field:"address", sorter:"string",headerFilter:true },
+        {title:"ZipCode", field:"zipcode", sorter:"string",headerFilter:true },
+        {title:"Country", field:"country", sorter:"string",headerFilter:true }
         
            
        
@@ -134,6 +136,7 @@ defineDownloadFunctions();
 
 function makeGetAjaxCall(){
     
+    
     $.ajax({
             method: "GET",
     url: baseUserUrl,
@@ -151,7 +154,6 @@ function makeGetAjaxCall(){
 }
 
 function getAllContacts() {
-    
     makeGetAjaxCall();
 
 }
@@ -225,7 +227,7 @@ $.ajax({
       data: JSON.stringify(data1),
              // <---update this
     success: function(result) {
-        alert("PUT success");
+        
     getAllContacts();
 },
     //error: function(result){alert("PUT Error  ")}
@@ -258,11 +260,17 @@ function handleAddUser()
 {
      var firstName=$("#given-name").val();
      var lastName=$("#family-name").val();
-     var email=$("#email").val();
+     var email=$("#emailp").val();
      var gender=$("#genderp").val();
      var city=$("#cityp").val();
-     var phone=$("#phone").val();
-     
+     var phone=$("#phonep").val();
+     var age=$("#agep").val();
+     var company=$("#companyp").val();
+     var address=$("#addressp").val();
+      var state=$("#statep").val();
+     var zipcode=$("#zipcodep").val();
+     var country=$("#countryp").val();
+
      var name={};
     if(firstName != undefined && firstName != null && firstName.length > 0)
         name ["firstName"] = firstName;
@@ -278,11 +286,21 @@ function handleAddUser()
     if(email != undefined && email != null && email.length > 0)
         addUserQueryString ["email"] = email;
     var address={};
-     if(city != "SelectCity" && city != null && city.length > 0)
+     if(city != undefined && city != null && city.length > 0)
         address ["city"] = city;
+    if(zipcode != undefined && zipcode != null && zipcode.length > 0)
+        address ["zipcode"] = zipcode;
+    if(country != undefined && country != null && country.length > 0)
+        address ["country"] = country;
+    if(state != undefined && state != null && state.length > 0)
+        address ["state"] = state;
     addUserQueryString['address']=address;
     if(phone != undefined && phone != null && phone.length > 0)
         addUserQueryString ["phone"] = phone;
+     if(age != undefined && age != null && age.length > 0)
+        addUserQueryString ["age"] = age;
+     if(company != undefined && company != null && company.length > 0)
+        addUserQueryString ["company"] = company;
        
     makePostAjaxCall();  
     closePopUp();
