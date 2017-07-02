@@ -86,8 +86,10 @@ h1,h6{
 }
  .form2h1{
     text-align: center;
-    color: blue;
-    margin-bottom: 10px;
+    color: black;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-weight: bold;
 }
 
 .form-inline{
