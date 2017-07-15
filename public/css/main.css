@@ -122,8 +122,9 @@ main {
 
 .front-page header {
 	position: absolute;
-	left: 38.8%;
-	top: 34.2%;
+	     top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
 	color: black;
 }
 
@@ -780,7 +781,10 @@ footer {
 	}
 
 	.front-page header {
-		top: 33%;
+	     position: absolute;
+	     top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
 	}
 
 	.about-box {
@@ -967,8 +971,10 @@ footer {
 	}
 
 	.front-page header {
-		top: 32%;
-		left: 36%;
+	     position: absolute;
+	     top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
 	}
 
 	.front-page img {
@@ -994,8 +1000,10 @@ footer {
 	}
 
 	.front-page header {
-		top: 34.7%;
-		left: 34%;
+		position: absolute;
+	     top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
 	}
 
 	.front-page {
@@ -1075,16 +1083,19 @@ footer {
 	}
 
 	.front-page header {
-		top: 37%;
-		left: 31%;
+	     position: absolute;
+	     top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
 	}
 
 	.front-page h1 {
-		font-size: 40px;
+		font-size: 36px;
 	}
 
 	.front-page img {
 		/*margin-left: -40px;*/
+
 	}
 
 	.date-box {
@@ -1154,11 +1165,14 @@ footer {
 @media only screen and (max-width: 350px) {
 
 	.front-page h1 {
-		font-size: 36px;
+		font-size: 30px;
 	}
 
 	.front-page header {
-		top: 38%;
+	     position: absolute;
+	     top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
 	}
 	.site-title{
 		text-align: center;

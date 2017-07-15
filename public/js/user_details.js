@@ -52,9 +52,15 @@ function getUser() {
     });
 }
 
+
 //var unirest = require('unirest');
 function defineBasicTabulatorColumns()
 {
+  var printIcon = function(cell, formatterParams){
+  
+    return "<i class='editabletext'>"+cell+"</i>";
+};
+
 $("#showResult").tabulator({
             //set height of table (optional)
             fitColumns:true,
@@ -74,11 +80,12 @@ $("#showResult").tabulator({
         {title:"Company", field:"company", sorter:"string",headerFilter:true },
         
         
-        {title:"Phone", field:"phone", sorter:"string",headerFilter:true,editable:true },
+        
         // {title:"About", field:"about", sorter:"string",headerFilter:true },
         {title:"Address", field:"address", sorter:"string",headerFilter:true },
         {title:"ZipCode", field:"zipcode", sorter:"string",headerFilter:true },
-        {title:"Country", field:"country", sorter:"string",headerFilter:true }
+        {title:"Country", field:"country", sorter:"string",headerFilter:true },
+        {title:"Phone", field:"phone", sorter:"string",headerFilter:true,editable:true,formatter:printIcon}
         
            
        

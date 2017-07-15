@@ -61,13 +61,13 @@ function loggedIn(req, res, next) {
 	if (req.user) {
 		next();
 	} else {
-		res.json({redirect: '/login.html', message: 'Please sign in'});
+		res.json({redirect: '/signin.html', message: 'Please sign in'});
 	}
 }
 
 // GET for user to sign in
 router.get('/login',
-	passport.authenticate('basic', {session: true, failureRedirect: '/login.html'}),
+	passport.authenticate('basic', {session: true, failureRedirect: '/signin.html'}),
 		(req, res) => {
 			console.log("Inside login router"+req.user);
 			res.json({user: req.user.apiRepr(), message: 'Sign in successful'});
