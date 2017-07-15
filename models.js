@@ -60,7 +60,9 @@ userSchema.methods.apiRepr = function() {
     country: this.address.country,
     address: this.addressString,
     company:this.company,
-    about:this.about
+    about:this.about,
+    firstName:this.name.firstName,
+    lastName:this.name.lastName
   };
 }
 

@@ -72,19 +72,21 @@ $("#showResult").tabulator({
 
           
             columns:[
-                {title:"Name", field:"name", sorter:"string",headerFilter:true },
-        {title:"Gender", field:"gender", sorter:"string",headerFilter:true },
-        {title:"Email", field:"email", sorter:"string",headerFilter:true,formatter:"email"},
+                {title:"First Name", field:"firstName", sorter:"string",headerFilter:true,editable:true },
+                {title:"Last Name", field:"lastName", sorter:"string",headerFilter:true,editable:true },
+        {title:"Gender", field:"gender", sorter:"string",headerFilter:true,editable:true },
+        {title:"Email", field:"email", sorter:"string",headerFilter:true,formatter:"email",editable:true},
         
-        {title:"Age", field:"age", sorter:"string",headerFilter:true },
-        {title:"Company", field:"company", sorter:"string",headerFilter:true },
+        {title:"Age", field:"age", sorter:"string",headerFilter:true,editable:true },
+        {title:"Company", field:"company", sorter:"string",headerFilter:true,editable:true },
         
         
         
         // {title:"About", field:"about", sorter:"string",headerFilter:true },
-        {title:"Address", field:"address", sorter:"string",headerFilter:true },
-        {title:"ZipCode", field:"zipcode", sorter:"string",headerFilter:true },
-        {title:"Country", field:"country", sorter:"string",headerFilter:true },
+        {title:"City", field:"city", sorter:"string",headerFilter:true ,editable:true},
+        {title:"State", field:"state", sorter:"string",headerFilter:true ,editable:true},
+        {title:"ZipCode", field:"zipcode", sorter:"string",headerFilter:true,editable:true },
+        {title:"Country", field:"country", sorter:"string",headerFilter:true,editable:true },
         {title:"Phone", field:"phone", sorter:"string",headerFilter:true,editable:true,formatter:printIcon}
         
            

@@ -118,6 +118,16 @@ app.put('/contacts/:id', (req, res) => {
                 if(id==req.params.id)
                 {
                   contacts[i].phone=req.body.phone;
+contacts[i].gender=req.body.gender;
+contacts[i].age=req.body.age;
+contacts[i].company=req.body.company;
+contacts[i].email=req.body.email;
+contacts[i].name.firstName=req.body.firstName;
+contacts[i].name.lastName=req.body.lastName;
+contacts[i].address.city=req.body.city;
+contacts[i].address.state=req.body.state;
+contacts[i].address.zipcode=req.body.zipcode;
+contacts[i].address.country=req.body.country;
                   
                 }
           }
