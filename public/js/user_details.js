@@ -87,7 +87,7 @@ $("#showResult").tabulator({
         {title:"State", field:"state", sorter:"string",headerFilter:true ,editable:true},
         {title:"ZipCode", field:"zipcode", sorter:"string",headerFilter:true,editable:true },
         {title:"Country", field:"country", sorter:"string",headerFilter:true,editable:true },
-        {title:"Phone", field:"phone", sorter:"string",headerFilter:true,editable:true,formatter:printIcon}
+        {title:"Phone", field:"phone", sorter:"string",headerFilter:true,editable:true}
         
            
        
