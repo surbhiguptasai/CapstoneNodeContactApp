@@ -37,7 +37,8 @@
 }
 
 .form2btn{
-    margin:20px;
+    
+    text-align:center;
 }
 .header1{
        background-image: url("../img/headerBG.jpg");
@@ -126,7 +127,7 @@ h1,h6{
 }
 .form-group
 {
-    padding-left: 40px;
+    /*padding-left: 40px;*/
 
 }
 .form-horizontal{
@@ -151,8 +152,8 @@ input,select,label{
 	width:150px;
 	text-align: left;*/
 	/*margin: 5px;*/
-    padding-left:20px;
-    padding-right:20px;
+    /*padding-left:20px;
+    padding-right:20px;*/
 }
 .labelClass
 {
@@ -268,7 +269,7 @@ button{
     {
         .form2btn {
             margin: 0px;
-        margin-right: 25%;
+       
 }
         b{
             font-weight: 400;
