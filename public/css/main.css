@@ -30,7 +30,7 @@ a:visited {
 	width: 100%;
 	border-bottom: 1px solid #d4d4d4;
 	padding: 10px;
-	background-color: black;
+	background-color: darkgreen;
 	z-index: 1;
 }
 
@@ -67,24 +67,24 @@ a:visited {
 	position: relative;
 	display: inline-block;
 	line-height: 40px;
-	color: #a9a9a9;
+	color: white;
 	padding-left: 50px;
 }
 
 .nav-item a {
-	color: #a9a9a9;
+	color: white;
 }
 .nav-item a:hover {
 	color: white;
 }
 
 .nav-button, .sign-up-form button, button#save, .plus-sign {
-	background-color: #66c470;
-	border: 1px solid #66c470;
+	background-color: royalblue;
+	border: 1px solid royalblue;
 }
 
 .nav-button:hover, .sign-up-form button:hover, button#save:hover, .plus-sign:hover {
-	background-color: #339933;
+	background-color: royalblue;
 }
 
 .nav-current {
@@ -125,7 +125,7 @@ main {
 	     top: 50%;
          left: 50%;
          transform: translate(-50%, -50%);
-	color: black;
+	color: white;
 }
 
 .front-page h1 {
@@ -139,7 +139,7 @@ main {
 .front-page p {
 	margin: 0;
 	font-size: 30px;
-	color: gray;
+	color: whitesmoke;
 }
 
 .front-page img {
@@ -948,7 +948,7 @@ footer {
 		display: block;
 		text-align: center;
 		padding: 10px 0;
-		color: gray;
+		color: white;
 	}
 
 	.nav-item a {

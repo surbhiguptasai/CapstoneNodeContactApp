@@ -2,6 +2,37 @@
 	box-sizing: border-box;
 
 }
+
+/*#showResult{*/
+    /*background-color:#ccc;*/
+    /*border: 1px solid #333;*/
+    /*border-radius: 10px;*/
+/*}*/
+
+/*!*Theme the header*!*/
+/*#showResult .tabulator-header {*/
+    /*background-color:#333;*/
+    /*color:#fff;*/
+/*}*/
+
+/*!*Allow column header names to wrap lines*!*/
+/*#showResult .tabulator-header .tabulator-col,*/
+/*#showResult .tabulator-header .tabulator-col-row-handle {*/
+    /*white-space: normal;*/
+/*}*/
+
+/*!*Color the table rows*!*/
+/*#showResult .tabulator-tableHolder .tabulator-table .tabulator-row{*/
+    /*color:#fff;*/
+    /*background-color: #666;*/
+/*}*/
+
+/*!*Color even rows*!*/
+/*#showResult .tabulator-tableHolder .tabulator-table .tabulator-row:nth-child(even) {*/
+    /*background-color: #444;*/
+/*}*/
+
+
 .toggle{
 	visibility: hidden;
 
@@ -103,6 +134,9 @@ body{
 }
 #form-{
 	
+}
+.white{
+    color:white;
 }
 h1,h6{
 	text-align: center;
@@ -336,22 +370,25 @@ display:block !important;
 
 
 
-    .tabulator-cell:nth-of-type(1):before { content: "Name" !important; }
-    .tabulator-cell:nth-of-type(2):before { content: "Gender" !important; }
-    .tabulator-cell:nth-of-type(3):before { content: "Email" !important; }
-    .tabulator-cell:nth-of-type(4):before { content: "Age" !important; }
-    .tabulator-cell:nth-of-type(5):before { content: "Company" !important; }
-    .tabulator-cell:nth-of-type(6):before { content: "Phone" !important; }
-    .tabulator-cell:nth-of-type(7):before { content: "Address" !important; }
-    .tabulator-cell:nth-of-type(8):before { content: "ZipCode" !important; }
-    .tabulator-cell:nth-of-type(9):before { content: "Country" !important; }
+    .tabulator-cell:nth-of-type(1):before { content: "First Name" !important; }
+    .tabulator-cell:nth-of-type(2):before { content: "Last Name" !important; }
+    .tabulator-cell:nth-of-type(3):before { content: "Gender" !important; }
+    .tabulator-cell:nth-of-type(4):before { content: "Email" !important; }
+    .tabulator-cell:nth-of-type(5):before { content: "Age" !important; }
+    .tabulator-cell:nth-of-type(6):before { content: "Company" !important; }
+    .tabulator-cell:nth-of-type(7):before { content: "City" !important; }
+    .tabulator-cell:nth-of-type(8):before { content: "State" !important; }
+    .tabulator-cell:nth-of-type(9):before { content: "ZipCode" !important; }
+    .tabulator-cell:nth-of-type(10):before { content: "Country" !important; }
+    .tabulator-cell:nth-of-type(11):before { content: "Phone" !important; }
+    
 
 .container-fluid{
 padding-left: 0px;
 }
     @media only screen
     and (min-device-width : 320px)
-    and (max-device-width : 480px) {
+     {
         .results
         {
             padding-right: 5px !important;
@@ -391,9 +428,18 @@ padding-left: 0px;
         h6{
             font-size: 10px;
         }
+
+        .tabulator-header {
+
+
+            height:auto !important;
+
+
+            padding-left: 42% !important;
+        }
         .tabulator-cell { 
 
-            width:200px !important;
+
             height:auto !important;
             
 
@@ -431,6 +477,33 @@ padding-left: 0px;
 
          
         }
+
+    .tabulator-cell {
+
+
+        height:auto !important;
+
+
+
+    }
+
+    .tabulator-header {
+
+
+        height:auto !important;
+
+
+
+    }
+    .tabulator-col {
+
+
+        height:auto !important;
+
+
+
+
+    }
         .container-fluid{
 padding-left: 0px;
 }
@@ -455,9 +528,32 @@ padding-left: 0px;
     font-size:120%;
     line-height: 1.2;
   }
-  .tabulator {
-    margin-left: 15px;
-}
+            .tabulator-cell {
+
+
+                height:auto !important;
+
+
+
+            }
+
+            .tabulator-header {
+
+
+                height:auto !important;
+
+
+
+            }
+            .tabulator-col {
+
+
+                height:auto !important;
+
+
+
+
+            }
   .container-fluid{
 padding-left: 0px;
 }
