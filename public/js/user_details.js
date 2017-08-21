@@ -3,8 +3,8 @@ var data1=[];
 var dataToBedisplayed=[];
 var queryString = {};
 var addUserQueryString = {};  
-//var baseUrl="http://localhost:8080/";
-var baseUrl="https://capstonecontactapp.herokuapp.com/";
+var baseUrl="http://localhost:8080/";
+//var baseUrl="https://capstonecontactapp.herokuapp.com/";
 var baseReferenceDistinctUrl=baseUrl+"distinct?distinct=";
 var baseUserUrl=baseUrl+"contacts/";
 // queryString["userId"]="ravi";
@@ -63,16 +63,19 @@ function defineBasicTabulatorColumns()
 
 $("#showResult").tabulator({
             //set height of table (optional)
+           
             fitColumns:true,
             responsiveLayout:true, //fit columns to width of table (optional)
             pagination:"local",
             paginationSize:10,
             addRowPos:"top",
             selectable:true,
+            resizableColumns:false,
+
 
           
             columns:[
-                {title:"First Name", field:"firstName", sorter:"string",headerFilter:true,editable:true },
+                {title:"First Name", field:"firstName", sorter:"string",headerFilter:true},
                 {title:"Last Name", field:"lastName", sorter:"string",headerFilter:true,editable:true },
         {title:"Gender", field:"gender", sorter:"string",headerFilter:true,editable:true },
         {title:"Email", field:"email", sorter:"string",headerFilter:true,formatter:"email",editable:true},
