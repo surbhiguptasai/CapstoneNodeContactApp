@@ -13,12 +13,8 @@ Users can:
 
 - Try a demo account (unique instances of pre-populated sample entries)
 - Create unique user account with username and password; login/logout
-- Manage his contacts by posting his contact and allowing with features to post, modify and delete his contacts.
-- Add contacts
-- Edit contacts
-- Remove contacts
-- Get contacts
-- Download contacts
+- Manage his contacts by performing the CRUD operations .
+<img src="public/img/CRUD.jpg">
 
 
 ## Getting started
@@ -57,6 +53,6 @@ Then open [`localhost:8000`](http://localhost:8080) in a browser.
 </ul>
 <h3>Responsive</h3>
 <ul>
-  <li>The app is fully responsive and quickly adapts to all mobile, tablet, and desktop viewports.</li>
+  <p>The app is fully responsive and quickly adapts to all mobile, tablet, and desktop viewports.</p>
 </ul>
 <img src="public/img/contactAppR2.png">
