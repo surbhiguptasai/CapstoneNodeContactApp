@@ -3,6 +3,7 @@
 <p>Now you <b>don’t need to worry </b> about losing contact numbers of your loved ones.
    My Contacts App enables users to easily store and find contact information, such as names, addresses, and telephone numbers.<p>
 <img src="public/img/contactAppF1.png">
+<img src="public/img/contactAppF2.png">
 
 
 
