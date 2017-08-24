@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d181c33-0f90-4be1-acfa-a4462aa17b82" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/Wf0.png" afterPath="$PROJECT_DIR$/public/img/Wf0.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/Wf01.png" afterPath="$PROJECT_DIR$/public/img/Wf01.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/Wf1.png" afterPath="$PROJECT_DIR$/public/img/Wf1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/Wf2.png" afterPath="$PROJECT_DIR$/public/img/Wf2.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/contactApp-mockup1.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,7 +18,7 @@
       <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
+            <state relative-caret-position="0">
               <caret line="5" column="43" lean-forward="false" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
               <folding />
             </state>
@@ -31,7 +30,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="408">
-                <caret line="42" column="21" lean-forward="true" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="39" />
+                <caret line="42" column="39" lean-forward="false" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -90,13 +89,6 @@
               <caret line="973" column="11" lean-forward="false" selection-start-line="973" selection-start-column="11" selection-end-line="973" selection-end-column="11" />
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contactAppF.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/img/contactAppF.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
@@ -209,6 +201,12 @@
               <item name="CapstoneNodeContactApp" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CapstoneNodeContactApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CapstoneNodeContactApp" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CapstoneNodeContactApp" type="b2602c69:ProjectViewProjectNode" />
@@ -353,12 +351,12 @@
       <workItem from="1501455413384" duration="8093000" />
       <workItem from="1501703500158" duration="649000" />
       <workItem from="1503031955468" duration="26482000" />
-      <workItem from="1503615750433" duration="604000" />
+      <workItem from="1503615750433" duration="1105000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35828000" />
+    <option name="totallyTimeSpent" value="36329000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -680,7 +678,7 @@
     <entry file="file://$PROJECT_DIR$/notes" />
     <entry file="file://$PROJECT_DIR$/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="0">
           <caret line="5" column="43" lean-forward="false" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
           <folding />
         </state>
@@ -741,11 +739,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/contactApp-mockup1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="408">
-            <caret line="42" column="21" lean-forward="true" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="39" />
+            <caret line="42" column="39" lean-forward="false" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
             <folding />
           </first_editor>
           <second_editor />
