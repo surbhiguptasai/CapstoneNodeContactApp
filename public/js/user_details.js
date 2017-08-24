@@ -96,6 +96,9 @@ $("#showResult").tabulator({
        
     ],
     rowClick:function(e, id, data, row){ //trigger an alert message when the row is clicked
+        row.addClass('rowedited');
+        //alert("Row " + id + " Clicked!!!!"+JSON.stringify(data))
+
         data1.push(data);
     },
 }); 
@@ -181,11 +184,18 @@ function attachSubmitEvent()
 function attachDeleteEvent()
 {
       $("#delete-row").click(function(event) {
+          if(data1.length==0)
+          {
+              alert("Please Select Contact by clicking it");
+
+          }
        for(i=0;i<data1.length;i++)
        {
         
        makeDeleteAjaxCall();
        }
+          if(data1.length!=0)
+          alert("Contact Deleted Successfully!!");
        data1=[];
 });
 
@@ -199,6 +209,7 @@ function attachSaveUserEvent()
         
        makePutAjaxCall(dataEdited[i]);
        }
+       alert("Contact Saved Successfully!!");
        dataEdited=[];
 });
 
@@ -216,6 +227,7 @@ $.ajax({
     contentType:'application/json',
     data: JSON.stringify(queryString),
     success: function(result) {
+
     handleSuccessfulDeleteEvent(id);
 },
     error: function(result){alert("Deleted Error  ")}
@@ -239,7 +251,7 @@ $.ajax({
       data: JSON.stringify(data1),
              // <---update this
     success: function(result) {
-        
+
     getAllContacts();
 },
     //error: function(result){alert("PUT Error  ")}
@@ -326,7 +338,7 @@ function makePostAjaxCall(){
     dataType: 'text',                // <---update this
     data: JSON.stringify(addUserQueryString),
     success: function(result) {
-        
+        alert("Contact Added Successfully!!");
         getAllContacts();
 
     },

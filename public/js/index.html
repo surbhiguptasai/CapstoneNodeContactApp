@@ -4,6 +4,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/tabulator/2.11.0/tabulator.min.css" rel="stylesheet">
+    <!--<link href="https://cdnjs.cloudflare.com/ajax/libs/tabulator/3.2.2/css/tabulator_midnight.min.css" rel="stylesheet">-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="../css/main.css">
 <link rel="stylesheet" type="text/css" href="../css/style.css">
@@ -33,9 +34,9 @@
 
 <div class="container-fluid form1">
 <div id="hidden1" class="form-group">
-<button id="save-row" class="btn btn-primary btn-responsive">Save</button>
-<button id="delete-row" class="btn btn-primary btn-responsive">Delete</button>
-<button id="add-row" class="btn btn-primary btn-responsive" onclick="document.getElementById('id01').style.display='block'">Add</button>
+<button title="Saves Edited Contact" id="save-row" class="btn btn-primary btn-responsive">Save</button>
+<button title="Deletes Selected Contact" id="delete-row" class="btn btn-primary btn-responsive">Delete</button>
+<button title="Adds a New Contact"  id="add-row" class="btn btn-primary btn-responsive" onclick="document.getElementById('id01').style.display='block'">Add</button>
 <a id="download-csv"><img src="../img/downloadCSV.jpg" class="image download"></a>
 <a id="download-json"><img src="../img/downloadJson.png" class="image download"></a></div>
 <div id="id01" class="modal container-fluid form-horizontal">
@@ -133,7 +134,7 @@
    
   	<div class="form2btn"> 
     <div class="col-xs-12"></div>
-	    <button id="userSubmit" type="submit" class="btn btn-primary btn-responsive">Add Contact</button> 
+	    <button id="userSubmit" title="Adds a New Contact"  type="submit" class="btn btn-primary btn-responsive">Add Contact</button>
     </div> 
  
 </form>
