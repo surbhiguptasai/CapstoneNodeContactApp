@@ -36,7 +36,7 @@ Then open [`localhost:8000`](http://localhost:8080) in a browser.
 
 <h2>WireFrames</h2>
 <p>Initial wireframes were created for each page. Mockups of all key processes were designed with user flow in mind.</p>
-<img src="public/img/contactApp-mockup3.png">
+<p align="center"><img src="public/img/contactApp-mockup3.png"></p>
 
 <h2>Technology & API</h2>
 <ul>
