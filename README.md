@@ -2,7 +2,7 @@
 <p><a href="https://capstonecontactapp.herokuapp.com/">Contact App</a> is a responsive app that allows the user to  <b>manage</b> contacts. </p>
 <p>Now you <b>don’t need to worry </b> about losing contact numbers of your loved ones.
    My Contacts App enables users to easily store and find contact information, such as names, addresses, and telephone numbers.<p>
-<img src="public/img/contactAppF1.png">
+<p align="center"><img src="public/img/contactAppF1.png"></p>
 <img src="public/img/contactAppF2.png">
 
 
@@ -14,7 +14,7 @@ Users can:
 - Try a demo account (unique instances of pre-populated sample entries)
 - Create unique user account with username and password; login/logout
 - Manage his contacts by performing the CRUD operations .
-<img src="public/img/CRUD.jpg">
+<p align="center"><img src="public/img/CRUD.jpg"></p>
 
 
 ## Getting started
@@ -55,4 +55,4 @@ Then open [`localhost:8000`](http://localhost:8080) in a browser.
 <ul>
   <p>The app is fully responsive and quickly adapts to all mobile, tablet, and desktop viewports.</p>
 </ul>
-<img src="public/img/contactAppR2.png">
+<p align="center"><img src="public/img/contactAppR2.png"></p>
