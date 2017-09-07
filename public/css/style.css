@@ -71,12 +71,16 @@ a{
     width: 100%;
     border-bottom: 1px solid #d4d4d4;
     padding: 10px;
-    background-color: #cedbef;
+    background-color: #e6e6e6;
     z-index: 1;
 
 
 }
-
+.btn-primary {
+    color: #fff;
+    background-color: royalblue !important;
+    border-color: #2e6da4;
+}
 .form2btn{
     
     text-align:center;
