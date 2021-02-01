@@ -1,7 +1,7 @@
 const bodyParser = require('body-parser');
 const express = require('express');
 const morgan = require('morgan');
-
+const MongoClient = require('mongodb').MongoClient;
 const mongoose = require('mongoose');
 const unirest = require('unirest');
 
@@ -13,6 +13,7 @@ mongoose.set('debug', true);
 // config.js is where we control constants for entire
 // app like PORT and DATABASE_URL
 const {PORT, DATABASE_URL} = require('./config');
+const client = new MongoClient("mongodb+srv://surbhi:surbhi@clustercontactapp.jzyeq.mongodb.net/contactApp?retryWrites=true&w=majority", { useNewUrlParser: true });
 const {UserDetail} = require('./models');
 const {UserContact} = require('./models');
 const app = express();
@@ -188,19 +189,21 @@ app.use('*', function(req, res) {
 let server;
 
 // this function connects to our database, then starts the server
-function runServer(databaseUrl=DATABASE_URL, port=PORT) {
+function runServer() {
 
   return new Promise((resolve, reject) => {
-    mongoose.connect(databaseUrl, err => {
+
+    client.connect(err => {
       if (err) {
         return reject(err);
       }
+        let UserContact = client.db("contactApp").collection("userContacts");
       server = app.listen(port, () => {
         console.log(`Your app is listening on port ${port}`);
         resolve();
       })
       .on('error', err => {
-        mongoose.disconnect();
+        client.close();
         reject(err);
       });
     });
@@ -210,7 +213,7 @@ function runServer(databaseUrl=DATABASE_URL, port=PORT) {
 // this function closes the server, and returns a promise. we'll
 // use it in our integration tests later.
 function closeServer() {
-  return mongoose.disconnect().then(() => {
+  return client.close().then(() => {
      return new Promise((resolve, reject) => {
        console.log('Closing server');
        server.close(err => {

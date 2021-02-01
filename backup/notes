@@ -1,6 +1,5 @@
 mongod --dbpath C:\\Users\\ravindra\\Desktop\\Thinkful-Projects\\data\\db
-mongoimport --db capstone-contact-app --collection userContacts --drop --file C:\\Users\\ravindra\\Desktop\\Thinkful-Projects\\NodeJS\\CapstoneNodeContactApp\\seed-data1.json --jsonArray
-
+mongoimport --db contactApp --collection userContacts --drop --file /Users/surbhigupta/Desktop/SurbhiJan2021/CapstoneNodeContactApp/backup/seed-data1.json
 db.userDetails.find({});
 
 
