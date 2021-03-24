@@ -93,8 +93,21 @@ userContacts.methods.validatePassword = function(password) {
   console.log("Inside password validation")
   console.log(" password is "+password);
   console.log(" this.password is "+this.password);
-  console.log(" compare is "+bcrypt.compare(password, this.password));
-  return bcrypt.compare(password, this.password);
+  bcrypt.compare(password, this.password, (err, data) => {
+                  //if error than throw error
+                  if (err) throw err
+
+                  //if both match than you can do anything
+                  if (data) {
+                        console.log(" Sucess ***************"+this.password);
+                  } else {
+                        console.log(" Invalid Credential **************"+this.password);
+                  }
+
+              })
+
+
+  return bcrypt.compareSync(password, this.password);
 }
 
 userContacts.statics.hashPassword = function(password) {

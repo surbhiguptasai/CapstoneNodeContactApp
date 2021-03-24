@@ -1,4 +1,8 @@
-[{
+{"userId":"surbhi",
+  "password":"$2a$10$WdrorKy.jCnjOmMZOEq3/.3xojmc/2SXbZ8.H9hdNKhZrVSltORF2",
+"contacts":
+[
+  {
     "_id": "59545517a2cbb132716c9f88",
     "name": {
       "firstName": "Marta",
@@ -879,3 +883,4 @@
     "about": "Ipsum qui magna nisi proident deserunt laboris incididunt cupidatat velit deserunt dolore eu et. Ipsum aliqua occaecat laboris tempor ut culpa aute elit ullamco veniam esse eiusmod laborum. Proident nulla elit est incididunt sint ipsum et do mollit. Veniam do ipsum amet excepteur consectetur minim labore dolore ut veniam excepteur esse nisi quis. Enim quis exercitation pariatur nulla qui. Ad fugiat cupidatat ullamco cillum labore pariatur laborum proident ad duis do eu anim. Proident veniam sint velit commodo velit incididunt aliqua proident deserunt esse nisi duis qui laborum.\r\n"
   }
 ]
+}

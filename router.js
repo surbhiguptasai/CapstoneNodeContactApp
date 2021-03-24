@@ -10,9 +10,12 @@ const router = express.Router();
 
 router.use(jsonParser);
 
+
 const basicStrategy = new BasicStrategy((username, password, callback) => {
 	let user;
 	console.log("Inside basic srategy");
+	console.log("username is ",username);
+	console.log("User contact Object is ",UserContact)
 	UserContact
 		.findOne({userId: username})
 		.exec()
@@ -34,7 +37,7 @@ const basicStrategy = new BasicStrategy((username, password, callback) => {
 				return callback(null, user);
 			}
 		})
-		.catch(err => console.log('Invalid username or password'))
+		.catch(err => console.log('Invalid username or password', err))
 });
 
 router.use(require('express-session')({ 
@@ -77,7 +80,7 @@ router.get('/login',
 // GET for user session (protected, must be signed-in already and have session cookie)
 router.get('/me', loggedIn, (req, res, next) => {
 	console.log("Inside me"+req.user);
-	console.log("Inside me"+req.user.apiRepr());
+//	console.log("Inside me"+req.user.apiRepr());
   	res.json({user: req.user.apiRepr()});
 	}
 );
@@ -149,6 +152,7 @@ UserContact
 			return res.status(201).json({user: user.apiRepr(), message: 'New account created! Please sign in'});
 		})
 		.catch(err => {
+		console.log(err);
 			res.status(500).json({message: 'Internal server error'});
 		});
 });
