@@ -15,8 +15,8 @@ const {router: usersRouter} = require('./router');
 // app like PORT and DATABASE_URL
 const {PORT, DATABASE_URL} = require('./config');
 
-const client = new MongoClient("mongodb://surbhi:surbhi@clustercontactapp-shard-00-00.jzyeq.mongodb.net:27017,clustercontactapp-shard-00-01.jzyeq.mongodb.net:27017,clustercontactapp-shard-00-02.jzyeq.mongodb.net:27017/contactApp?ssl=true&replicaSet=atlas-vg3i2n-shard-0&authSource=admin&retryWrites=true&w=majority", {useNewUrlParser: true});
-let url="mongodb://surbhi:surbhi@clustercontactapp-shard-00-00.jzyeq.mongodb.net:27017,clustercontactapp-shard-00-01.jzyeq.mongodb.net:27017,clustercontactapp-shard-00-02.jzyeq.mongodb.net:27017/contactApp?ssl=true&replicaSet=atlas-vg3i2n-shard-0&authSource=admin&retryWrites=true&w=majority";
+//const client = new MongoClient("mongodb://surbhi:surbhi@clustercontactapp-shard-00-00.jzyeq.mongodb.net:27017,clustercontactapp-shard-00-01.jzyeq.mongodb.net:27017,clustercontactapp-shard-00-02.jzyeq.mongodb.net:27017/contactApp?ssl=true&replicaSet=atlas-vg3i2n-shard-0&authSource=admin&retryWrites=true&w=majority", {useNewUrlParser: true});
+//let url="mongodb://surbhi:surbhi@clustercontactapp-shard-00-00.jzyeq.mongodb.net:27017,clustercontactapp-shard-00-01.jzyeq.mongodb.net:27017,clustercontactapp-shard-00-02.jzyeq.mongodb.net:27017/contactApp?ssl=true&replicaSet=atlas-vg3i2n-shard-0&authSource=admin&retryWrites=true&w=majority";
 const {UserDetail} = require('./models');
 const {UserContact} = require('./models');
 const app = express();
@@ -192,13 +192,13 @@ app.use('*', function(req, res) {
 let server;
 
 // this function connects to our database, then starts the server
-function runServer(port=PORT) {
+function runServer(databaseUrl=DATABASE_URL, port=PORT) {
 
 
 
   return new Promise((resolve, reject) => {
 
-    mongoose.connect(url,err => {
+    mongoose.connect(databaseUrl,err => {
     console.log("Connected to DB");
       if (err) {
         return reject(err);
