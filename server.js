@@ -15,9 +15,7 @@ const {router: usersRouter} = require('./router');
 // app like PORT and DATABASE_URL
 const {PORT, DATABASE_URL} = require('./config');
 
-//const client = new MongoClient("mongodb://surbhi:surbhi@clustercontactapp-shard-00-00.jzyeq.mongodb.net:27017,clustercontactapp-shard-00-01.jzyeq.mongodb.net:27017,clustercontactapp-shard-00-02.jzyeq.mongodb.net:27017/contactApp?ssl=true&replicaSet=atlas-vg3i2n-shard-0&authSource=admin&retryWrites=true&w=majority", {useNewUrlParser: true});
-//let url="mongodb://surbhi:surbhi@clustercontactapp-shard-00-00.jzyeq.mongodb.net:27017,clustercontactapp-shard-00-01.jzyeq.mongodb.net:27017,clustercontactapp-shard-00-02.jzyeq.mongodb.net:27017/contactApp?ssl=true&replicaSet=atlas-vg3i2n-shard-0&authSource=admin&retryWrites=true&w=majority";
-const {UserDetail} = require('./models');
+
 const {UserContact} = require('./models');
 const app = express();
 
@@ -223,6 +221,7 @@ function runServer(databaseUrl=DATABASE_URL, port=PORT) {
         resolve();
       })
       .on('error', err => {
+      mongoose.disconnect();
         client.close();
         reject(err);
       });
