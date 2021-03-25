@@ -192,37 +192,17 @@ let server;
 // this function connects to our database, then starts the server
 function runServer(databaseUrl=DATABASE_URL, port=PORT) {
 
-
-
   return new Promise((resolve, reject) => {
-
-    mongoose.connect(databaseUrl,err => {
-    console.log("Connected to DB");
+    mongoose.connect(databaseUrl, err => {
       if (err) {
         return reject(err);
       }
-
-        //const UserContact = client.db("contactApp").collection("userContacts");
-//        UserContact.find({userId: "surbhi"}, function(err, docs) {
-//            docs.each(function(err, doc) {
-//              if(doc) {
-//                console.log("Printing docs", doc);
-//              }
-//              else {
-//              console.log("No  docs", doc);
-////                res.end();
-//              }
-//            });
-//          });
-//
-//        console.log("Printing UserContact******",UserContact)
       server = app.listen(port, () => {
         console.log(`Your app is listening on port ${port}`);
         resolve();
       })
       .on('error', err => {
-      mongoose.disconnect();
-        client.close();
+        mongoose.disconnect();
         reject(err);
       });
     });
